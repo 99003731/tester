@@ -1,0 +1,15 @@
+1. https://web.microsoftstream.com/video/2b1344f5-5088-4868-aeb9-389ea78d1f83
+
+2. https://github.com/niekiran/Embedded-C/blob/master/All_source_codes/target/itm_send_data.c
+3. https://www.youtube.com/watch?v=IjKDKGqCm_4
+4. https://www.youtube.com/watch?v=QxvdmzKxEeg
+5. https://web.microsoftstream.com/video/124ba0f5-828d-4dc8-a145-899b3cc59cb2
+6. https://web.microsoftstream.com/video/67b27dd2-b9ce-470b-82db-5e86eef95687?channelId=73542acb-b2ea-411b-bf82-fc7cdd950431
+7. https://web.microsoftstream.com/video/914df7c1-025a-4311-b647-87fd766e9228?channelId=73542acb-b2ea-411b-bf82-fc7cdd950431
+8.https://web.microsoftstream.com/video/2dcc4ce0-3c0c-484d-a063-5967c11f261d?channelId=73542acb-b2ea-411b-bf82-fc7cdd950431
+9. https://web.microsoftstream.com/video/e06fad15-3dc4-4288-8bb1-b72810fb8669?channelId=73542acb-b2ea-411b-bf82-fc7cdd950431
+10.https://web.microsoftstream.com/video/fb887ab0-a552-4417-bdec-bb0b72eb5549?channelId=73542acb-b2ea-411b-bf82-fc7cdd950431
+
+11. https://web.microsoftstream.com/video/ccf39ad0-0808-4438-83f9-14f8cfa59eef?channelId=73542acb-b2ea-411b-bf82-fc7cdd950431
+12. https://web.microsoftstream.com/video/cd149ec3-c95b-4b53-a427-c672feb8e200
+13. https://web.microsoftstream.com/video/8debf165-6f09-48b3-a82d-89da23ef9fe4

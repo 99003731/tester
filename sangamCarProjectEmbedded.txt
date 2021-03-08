@@ -1,0 +1,54 @@
+ //Car ON And OFF
+  while (1)
+  {
+	  if(HAL_GPIO_ReadPin(PUSH_BUTTON_GPIO_Port, PUSH_BUTTON_Pin) == GPIO_PIN_SET)
+	  	  {
+		      HAL_Delay(500);
+	  		  HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_SET);
+	  		  if(HAL_GPIO_ReadPin(LD4_GPIO_Port, LD4_Pin) == GPIO_PIN_SET)
+	  		  {
+	  			  HAL_Delay(500);
+	  			  HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_SET);
+	  			  HAL_Delay(200);
+	  		  }
+	  	  }
+	  	  else
+	  	 {
+	  		 HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_RESET);
+	  	 }
+  }
+
+
+
+  //DOOR LIGHT ON/OFF USING LDR SENSOR
+
+    read_pin= HAL_GPIO_ReadPin(USER_INP_GPIO_Port, USER_INP_Pin);
+
+
+
+    	     if(read_pin==1)
+    	     {
+    	         HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_SET);
+
+
+
+    	         HAL_Delay(500);
+
+
+
+    	         HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_RESET);
+    	         //HAL_Delay(500);
+    	     }
+    	     else
+    	     {
+    	         HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_SET);
+    	         HAL_Delay(500);
+
+
+
+    	         HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
+    	    //     HAL_Delay(500);
+
+
+
+    	     }
